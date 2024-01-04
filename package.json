@@ -1,0 +1,15 @@
+{
+  "name": "cloud-notes-keeper-mern",
+  "version": "1.0.0",
+  "description": "A notes keeper that runs on the cloud ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js"
+  },
+  "author": "Bharath Kumar Vankendinne",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
