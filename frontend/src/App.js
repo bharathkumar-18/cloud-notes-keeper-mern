@@ -1,12 +1,16 @@
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
 
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      Hello
-    </div>
-  );
+const App = ()=>{
+  return(
+    <>
+      <Header/>
+      <main className=' h-screen'>
+        Hey
+      </main>
+      <Footer/>
+    </>
+  )
 }
 
 export default App;
