@@ -1,0 +1,18 @@
+.add-border{
+    border-bottom: 2px solid black;
+}
+
+.note-description {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-out, opacity 0.3s ease-out;
+    opacity: 0;
+  }
+
+  .show-note-description {
+    max-height: fit-content; /* Adjust this to fit your content */
+    opacity: 1;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+  }
