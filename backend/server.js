@@ -1,10 +1,13 @@
 const express = require('express');
 const notes = require('./data/notes');
 const dotenv = require('dotenv');
+const connectDB = require('./config/db');
 
+//Start express server
 const app = express();
 dotenv.config();
-
+//Connect to MongoDB with mongoose
+connectDB();
 app.get('/',(req,res) => {
     res.send("API is running");
 })
